@@ -25,9 +25,19 @@ With this extension, you can ask your coding agent to control your TV, search fo
 1. Copy `roku-extension.ts` into your Pi Agent's extensions directory or project directory.
 2. Update the `ROKU_IP` constant at the top of the `roku-extension.ts` file to match the IP address of your Roku TV on your local network.
 
+### Finding your Roku TV's IP Address using Pi
+
+The easiest way to find your TV's IP address is to ask the Pi Agent itself to find it for you! Since Pi has terminal access, you can simply tell it:
+
+> *"Find the IP address of my Roku TV on the local network."*
+
+Pi will typically use commands like `arp -a`, `nmap`, or `arp-scan` to scan your local network for devices identifying themselves as Roku (or MAC addresses associated with Roku). Once Pi gives you the IP address, you can ask Pi to update the `roku-extension.ts` file for you automatically, or you can paste it in yourself:
+
 ```typescript
 const ROKU_IP = "192.168.1.XX"; // Replace with your TV's IP
 ```
+
+Alternatively, you can find the IP manually on your TV by going to **Settings > Network > About**.
 
 ## How to Use
 
