@@ -68,4 +68,4 @@ Once started, just talk to it! Here are some examples of what you can say:
 
 ## Disclaimer
 
-Because third-party apps (like Netflix or Prime Video) do not broadcast their internal state through Roku's API, the agent cannot query exactly what show is currently playing or directly read inside an app. It operates purely as a network remote and launcher.
+Because third-party apps (like Netflix or Prime Video) do not broadcast their internal state through Roku's API, the agent cannot query exactly what show is currently playing or directly read inside an app. It operates purely as a network remote and launcher. However, you can still control these apps blindly by asking the agent to send sequential remote commands (e.g., *"press down, down, right, ok, ok to play the video"*).
