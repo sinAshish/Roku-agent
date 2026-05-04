@@ -1,5 +1,7 @@
 # Roku-agent
 
+> **The Backstory:** I was watching a movie, the remote's battery died, and I was too lazy to go to the store to buy AAA batteries. So, I decided to test the power of AI agents instead. Within 30 minutes... *voilà!* I was controlling my TV purely with conversational prompts. 
+
 A custom extension for the [Pi Coding Agent](https://github.com/mariozechner/pi-coding-agent) that turns your AI agent into a smart, programmable network remote for your Roku TV!
 
 With this extension, you can ask your coding agent to control your TV, search for content, navigate menus, adjust the volume, and launch specific apps. You can use any LLM API provider configured with Pi to power this agent.
