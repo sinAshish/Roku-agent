@@ -43,7 +43,13 @@ Alternatively, you can find the IP manually on your TV by going to **Settings > 
 
 ## How to Use
 
-Start up your Pi agent and just talk to it! Here are some examples of what you can say:
+To start the Pi agent with this extension loaded, run the following command from the directory where you saved `roku-extension.ts`:
+
+```bash
+pi --extension roku-extension.ts
+```
+
+Once started, just talk to it! Here are some examples of what you can say:
 
 - *"List all the apps installed on my Roku."*
 - *"Launch Prime Video."*
